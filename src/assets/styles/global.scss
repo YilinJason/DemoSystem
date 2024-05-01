@@ -1,0 +1,28 @@
+body{
+    background-color: white;
+    user-select: none;
+}
+img{
+    -webkit-user-drag: none;
+}
+
+.demo-logo-vertical{
+    height: 32px;
+    margin: 16px;
+    background: rgb(181, 255, 255);
+    border-radius: 15px;
+}
+.demo-logo-vertical-title {
+    text-align: center;
+    font-size: 1.5em; /* Adjust this value to suit your needs */
+    width: 100%;
+}
+.site-layout .site-layout-background{
+    background: white;
+}
+
+.ant-layout-sider .ant-layout-sider-dark{
+    flex: 0 0 250px;
+    max-width: 250px;
+    width: 250px;
+}
